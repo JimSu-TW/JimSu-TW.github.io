@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>JimSu-Tw Personal Page</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<meta charset="utf-8">
+	</head>
+	<body onload="alert('你好啊!')">
+		<div id="corgi">
+			<img src="corgi.gif">
+		</div>
+		<div>
+			<center>
+				<h1>Introduction</h1>
+				<table border="2">
+					<thead>
+						<tr>
+							<th>Info.</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Name</td>
+							<td>蘇勁安</td>
+						</tr>
+						<tr>
+							<td>Major</td>
+							<td>MIS</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td>E-Mail</td>
+							<td>jimsu2000ncu@g.ncu.edu.tw</td>
+						</tr>
+					</tfoot>
+				</table>
+			</center>
+		</div>
+		<br>
+		<hr>
+		<br>
+		<h1>簡介</h1>
+		<div id="simple_intro">
+			<p>&nbsp&nbsp&nbsp&nbsp就讀於中央大學資管系，畢業於高雄中學，男性，台灣人，在學中，聯絡地址:中央大學</p>
+			<h2 id="license">License</h2>
+			<ol id="list">
+				<li>
+					<br>
+					<span><img src="driver-license.png" id="icon">&nbsp駕照：</span>
+					<ul>
+						<li>汽車駕照</li>
+						<li>機車駕照</li>
+					</ul>
+					<p id="drive_comment">皆有上路經驗</p>
+				</li>
+				<li>
+					<br>
+					<span><img src="certificate.png" id="icon">&nbsp檢定：</span>
+					<ul>
+						<li>全民英檢中級</li>
+						<li><strong>TOEIC 910</strong></li>
+					</ul>
+				<li>
+					<br>
+					<span>程式語言：</span>
+					<ul>
+						<li>c</li>
+						<li><strong>HTML、CSS</strong></li>
+						<li>Python</li>
+						<li>SQL</li>
+						<li>JAVA</li>
+					</ul>
+				</li>
+				<li>					
+					<br>
+					<span>經歷：</span>
+					<ul>
+						<li><strong>網頁程式設計的課程中</strong>成功架設一個Server在國網中心虛擬機上</li>
+						<li>成功用Java做出<i><strong>小畫家</strong></i></li>
+						<li>用Python做出天氣預報app</li>
+						<li>擔任系學會幹部，辦理系上活動</li>
+						<li>業餘攝影師，幫助系上活進行拍攝</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<br>
+		<div>
+			<center>
+				<input type="number" id="first" required=True/>
+				<span>+</span>
+				<input type="number" id="second" required=True/>
+				<button id="enter" style="background-color: #ADDEB0" onclick="plus()">=</button>
+				<span id="result"></span>
+			</center>
+		</div>
+		<script type="text/javascript">
+			function plus(){
+				var a=parseInt(document.getElementById("first").value);
+				var b=parseInt(document.getElementById("second").value);
+				if(isNaN(a)==true || isNaN(b)==true){
+					alert("請好好使用本功能")
+						
+				}
+				else{
+					document.getElementById("result").innerHTML=a+b;
+				}
+			}
+		</script>
+	</body>
+	</html>
