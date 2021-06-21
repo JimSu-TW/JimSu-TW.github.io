@@ -1,6 +1,10 @@
 h1{
 	text-align: center;/*字置中*/
 }
+#corgi{
+	height: 20%;/*圖片高*/
+	width: 20%;/*圖片寬*/
+}
 table{
 	width: 40%; /*表格網頁寬80*/
 	background-color:#FAF7D1;/*背景顏色*/
@@ -27,8 +31,4 @@ table{
 #icon{
 	width: 30px;/*圖片寬*/
 	height: 30px;/*圖片高*/
-}
-#corgi{
-	height: 20%;/*圖片高*/
-	width: 20%;/*圖片寬*/
 }
