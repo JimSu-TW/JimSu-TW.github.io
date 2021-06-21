@@ -1,0 +1,34 @@
+h1{
+	text-align: center;/*字置中*/
+}
+table{
+	width: 40%; /*表格網頁寬80*/
+	background-color:#FAF7D1;/*背景顏色*/
+	text-align: center;/*置中*/
+	font-size: 24px;/*字大小24px*/
+	font-family:"Courier New",monospace;/*字行設定*/
+}
+#simple_intro{
+	font-family:"Courier New",monospace;/*字行設定*/
+	margin: auto;/*瀏覽器自動設定與各邊大小*/
+	width: 75% /*寬75%視窗*/;
+	padding:50px;/*內距50px*/
+	border: 5px solid #CBE4F5;/*邊框大小與顏色*/
+	font-size: 22px;/*字大小22px*/
+}
+::marker{
+	color: #FF5115;/*list顏色*/
+	font-size: 25px;/*list標號大小25px*/
+}
+#drive_comment{
+	margin:10px/*設定與各邊大小10px*/
+	font-size:"Courier New",monospace;/*字行設定*/
+}
+#icon{
+	width: 30px;/*圖片寬*/
+	height: 30px;/*圖片高*/
+}
+#corgi{
+	height: 50px;/*圖片高*/
+	width: 50px;/*圖片寬*/
+}
